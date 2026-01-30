@@ -5,7 +5,9 @@
         
         nav  {background: #333;
         text-align: center;;
-         padding: 50px}
+         padding: 50px;
+         font-color: white;
+         }
        
         h1 {
             padding: 20px;
@@ -49,4 +51,12 @@
         ul {
             margin: 20px;
             padding: 20px;;
+        }
+
+        img {
+            display: left;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            padding: 20px;
         }
