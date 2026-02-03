@@ -4,8 +4,25 @@
         padding:0;
         opacity: 88%; 
         padding-left: 40px;
-        
+
+    }
+
+    .floating-horse {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 120px;
+        opacity: 0.8;
+        animation: Float 6s ease-in-out infinite;
+        z-index: 10;
+    }
+
+    @keyframes Float {
+        0%, { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
         }
+        
         
      .home {
         background-color: #feffff;
