@@ -19,6 +19,11 @@
 
     <img src="downloads/background icon/HH icon 2.png" class="floating-horse" alt="horse"
 
+
+    <banner></banner>
+
+    <p></p>
+
     <h1>FAQ: Everything You Need to Know About Hobby Horsing</h1>
 
     <h2>What is hobby horsing?</h2>
@@ -48,7 +53,29 @@
     <p>Absolutely. Many riders craft their own using fabric, stuffing, a stick, buttons, and basic sewing supplies. Handmade horses are a big part of the culture.</p>
     <p>See Crafts page for instructions to make your own hobby horse.</p>
         
+<div class="container">
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Leinster">Leinster</option>
+      <option value="Munster">Munster</option>
+      <option value="Connaught">Connaught</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 </body>
 </html>    
