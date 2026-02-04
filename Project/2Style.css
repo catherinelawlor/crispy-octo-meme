@@ -4,6 +4,9 @@
         padding:0;
         opacity: 88%; 
         padding-left: 40px;
+        background-image: url("downloads/background banner/a\ soft\ pastel\ award\ .png");
+        background-repeat: repeat;
+        background-size: cover;
 
     }
 
@@ -38,6 +41,7 @@
           
      }   
         
+
     nav  {
             background: linear-gradient (to right, #a0e7e5, #a0e7e5, #b4f8c8, #fbe7c6)
             padding: 20px;
@@ -84,24 +88,21 @@
             padding: 20px;
             text-align: auto;
             margin-top: 50px;
-            background-color: #FFB6C1;
-            opacity: 0.88;
+            
         }
 
     h2 {
             padding: 20px;
             text-align: auto;
             margin-top: 50px;
-            background-color: #FFB6C1;
-            opacity: ;
+            
         }
 
     h3 {
             padding: 20px;
             text-align: auto;
             margin-top: 50px;
-            background-color: #FFB6C1;
-            opacity: 0.88;
+            
         }
         
     p {
@@ -112,8 +113,7 @@
     .home p {
             text-align: auto;
             padding: 20px; 
-            background-color: aquamarine;
-            opacity: 0.88;
+            
 
         }
 
@@ -163,39 +163,16 @@
            
         }
 
-     
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin: 40px auto;
+  max-width: 700px;
+  background-color: #000;     
       
-.Container input [type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
 
-/* Style the submit button with a specific background color etc */
-.input[type=submit][type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
 }
 
 .banner {
@@ -203,4 +180,46 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
+}
+
+.signup  {
+    max-width: 500px
+    margin: 40px auto;
+    display: grid;
+    gap: 16px;
+    background: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px 35px rgba(15, 23, 42, 0.12);
+    font-family: "Trebuchet MS", sans-serif;
+
+}
+
+.signup label {
+    font-weight: bold;
+    color: #444;
+}
+
+.signup imput,
+.signup textarea {
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.signup button {
+   background: #ffb3c6;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+.signup button:hover {
+    background: #ff8fab;
 }
