@@ -4,11 +4,76 @@
         padding:0;
         opacity: 88%; 
         padding-left: 40px;
-        background-image: url("downloads/background banner/a\ soft\ pastel\ award\ .png");
-        background-repeat: repeat;
-        background-size: cover;
-
+      
     }
+
+    
+        
+        
+     .home {
+        
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding-left: 40px;
+        
+           
+            
+        background-image: url(icon/HH\ icon\ 2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+          
+     }   
+        
+
+    nav  {
+        background-image: url("download/background banner/a-soft-pastel-award.png");
+        background-repeat: repeat-x;
+        background-size: contain;
+
+        padding: 20px;
+        text-align: center;
+
+        border-bottom: 4px solid #ffb3c6;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+            
+         }
+
+     nav a {
+        color: #444;
+        text-decoration: none;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "trebuchet ms", sans-serif;
+        transition: color 0.3s ease;
+        position: relative;
+        transition: color 0.3s ease;
+        padding: 10px 20px;
+
+    } 
+
+    nav a::after {
+            
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: #ffb3c6;
+            left: 0;
+            bottom: -5px;
+            transition: width 0.3s ease;
+       
+          
+        }
+        
+    nav a:hover {
+            color: #ff69b4;
+        }
+       
+        nav a:hover::after {
+            width: 100%;
+        }
+
 
     .floating-horse {
         position: fixed;
@@ -24,64 +89,6 @@
         0%, { transform: translateY(0); }
         50% { transform: translateY(-10px); }
         100% { transform: translateY(0); }
-        }
-        
-        
-     .home {
-        background-color: #feffff;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding-left: 40px;
-           
-            
-        background-image: url(icon/HH\ icon\ 2.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: 50% 50%;
-          
-     }   
-        
-
-    nav  {
-            background: linear-gradient (to right, #a0e7e5, #a0e7e5, #b4f8c8, #fbe7c6)
-            padding: 20px;
-            text-align: center;
-            border-bottom: #ffb3c6;
-            box-shadow: 0 4px 6px rgba (0, 0, 0, 0.1);
-            
-         }
-
-     nav a {
-            color: #444;
-            text-decoration: none;
-            margin: 20px;
-            font-size: 18px;
-            font-weight: bold;
-            font-family: "trebuchet ms", sans-serif;
-            transition: color 0.3s ease;
-            position: relative;
-            transition: color 0.3s ease;
-
-    } 
-
-    nav a::after {
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 3px;
-            background: #ffb3c6;
-            left: 0;
-            bottom: -5px;
-            transition: width 0.3s ease;
-          
-        }
-        
-    nav a:hover {
-            color: #ff69b4;
-        }
-       
-        nav a:hover::after {
-            width: 100%;
         }
 
     h1 {
@@ -222,4 +229,10 @@
 
 .signup button:hover {
     background: #ff8fab;
+}
+
+.container {
+    display: flex;
+    background-color: #f7b7de;
+
 }
