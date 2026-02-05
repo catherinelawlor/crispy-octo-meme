@@ -189,48 +189,6 @@
   background-attachment: scroll;
 }
 
-.signup {
-    max-width: 500px;
-    margin: 40px auto;
-    display: grid;
-    gap: 16px;
-    background: #fff;
-    padding: 32px;
-    border-radius: 16px;
-    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.12);
-    font-family: "Trebuchet MS", sans-serif;
-}
-
-.signup label {
-    font-weight: bold;
-    color: #444;
-}
-
-
-.signup input,
-.signup textarea {
-    padding: 12px 14px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 1rem;
-}
-
-
-.signup button {
-    background: #ffb3c6;
-    color: #fff;
-    border: none;
-    padding: 12px 18px;
-    border-radius: 999px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-
-.signup button:hover {
-    background: #ff8fab;
-}
 
 
 .container {
