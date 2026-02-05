@@ -1,0 +1,226 @@
+    body { 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding:0;
+        opacity: 88%; 
+        padding-left: 40px;
+      
+    }
+
+    
+        
+        
+     .home {
+        
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding-left: 40px;
+        
+           
+            
+        background-image: url(icon/HH\ icon\ 2.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+          
+     }   
+        
+
+    nav  {
+        background-image: url("download/background banner/a-soft-pastel-award.png");
+        background-repeat: repeat-x;
+        background-size: contain;
+
+        padding: 20px;
+        text-align: center;
+
+        border-bottom: 4px solid #ffb3c6;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+            
+         }
+
+     nav a {
+        color: #444;
+        text-decoration: none;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "trebuchet ms", sans-serif;
+        transition: color 0.3s ease;
+        position: relative;
+        transition: color 0.3s ease;
+        padding: 10px 20px;
+
+    } 
+
+    nav a::after {
+            
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: #ffb3c6;
+            left: 0;
+            bottom: -5px;
+            transition: width 0.3s ease;
+       
+          
+        }
+        
+    nav a:hover {
+            color: #ff69b4;
+        }
+       
+        nav a:hover::after {
+            width: 100%;
+        }
+
+
+    .floating-horse {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 120px;
+        opacity: 0.8;
+        animation: Float 6s ease-in-out infinite;
+        z-index: 10;
+    }
+
+    @keyframes Float {
+        0%, { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+        }
+
+    h1 {
+            padding: 20px;
+            text-align: auto;
+            margin-top: 50px;
+            
+        }
+
+    h2 {
+            padding: 20px;
+            text-align: auto;
+            margin-top: 50px;
+            
+        }
+
+    h3 {
+            padding: 20px;
+            text-align: auto;
+            margin-top: 50px;
+            
+        }
+        
+    p {
+            text-align: auto;
+            padding: 20px
+         }
+
+    .home p {
+            text-align: auto;
+            padding: 20px; 
+            
+
+        }
+
+    caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: larger;
+        }
+
+    table {
+            margin: 20px;
+            border-collapse: collapse;
+            width: 50%;
+            tr:hover {background-color: turquoise;}
+        }
+    th, td {
+            border: 1px solid #080808;
+            padding: 8px;
+            text-align: left;
+        }
+    th {
+            background-color: rgb(245, 252, 152);
+            text-align: center;
+        }
+
+    tr:nth-child(even) {
+            background-color: #f7b7de;
+            tr:nth-child(odd) {
+            background-color: #e1ebc6;
+        }
+
+    div.table-container {
+            overflow-x: auto;
+        }   
+
+    ul {
+            margin: 20px;
+            padding: 20px;;
+        }
+
+    img {
+            display: left;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            padding: 20px;
+           
+        }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin: 40px auto;
+  max-width: 700px;
+  background-color: #000;     
+      
+
+}
+
+.banner {
+  background-image: url("downloads/background\banner\banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+
+
+.container {
+    display: flex;
+    background-color: #f7b7de;
+}
+
+
+.layout {
+   display: flex;
+   gap: 40px;
+   align-items: flex-start;
+   margin: 40px;
+}
+article {
+   flex: 2;
+}
+
+.gallery {
+    display: grid;
+    grid-template: 1fr;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15 );
+    transition: transform 0.3s ease;
+
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
